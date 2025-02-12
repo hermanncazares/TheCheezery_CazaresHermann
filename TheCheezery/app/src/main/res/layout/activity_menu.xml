@@ -13,7 +13,6 @@
         android:layout_width="241dp"
         android:layout_height="wrap_content"
         android:scaleType="centerInside"
-        android:src="@drawable/title"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"></ImageView>
     
@@ -21,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:text="@string/our_menu"
+        android:text="our_menu2"
         android:textAllCaps="true"
         android:layout_gravity="center_horizontal"
         android:textSize="20sp"
@@ -39,8 +38,9 @@
             android:text="@string/cold_drinks"
             android:textColor="@color/dusty_white"
             android:background="@drawable/first_gradient"
-            android:paddingHorizontal="@dimen/menu_buttons_padding"
-            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:paddingHorizontal="20dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="5dp"
             android:layout_gravity="fill_horizontal"
             android:layout_weight="1"
             android:textSize="@dimen/menu_buttons_text"
@@ -52,8 +52,9 @@
             android:text="@string/hot_drinks"
             android:textColor="@color/dusty_white"
             android:background="@drawable/first_gradient"
-            android:paddingHorizontal="@dimen/menu_buttons_padding"
+            android:paddingHorizontal="20dp"
             android:layout_marginLeft="@dimen/menu_buttons_margin"
+            android:layout_marginBottom="5dp"
             android:layout_gravity="fill_horizontal"
             android:layout_weight="1"
             android:textSize="@dimen/menu_buttons_text"
@@ -61,18 +62,19 @@
             ></Button>
 
 
-
         <Button
             android:id="@+id/button_sweets"
             android:text="@string/sweets"
             android:textColor="@color/dusty_white"
             android:background="@drawable/second_gradient"
-            android:paddingHorizontal="@dimen/menu_buttons_padding"
-            android:layout_marginLeft="@dimen/menu_buttons_margin"
+            android:paddingHorizontal="20dp"
+            android:layout_marginRight="2dp"
             android:layout_gravity="fill_horizontal"
             android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+
             android:textSize="@dimen/menu_buttons_text"
-            android:paddingVertical="@dimen/menu_buttons_padding_v"
+            android:paddingVertical="15dp"
             ></Button>
 
         <Button
@@ -81,7 +83,9 @@
             android:textColor="@color/dusty_white"
             android:background="@drawable/second_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_padding"
-            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="5dp"
+
             android:layout_gravity="fill_horizontal"
             android:layout_weight="1"
             android:textSize="@dimen/menu_buttons_text"
@@ -94,7 +98,7 @@
             android:textColor="@color/dusty_white"
             android:background="@drawable/second_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_padding"
-            android:layout_marginLeft="@dimen/menu_buttons_margin"
+            android:layout_marginRight="2dp"
             android:layout_gravity="fill_horizontal"
             android:layout_weight="1"
             android:textSize="@dimen/menu_buttons_text"
@@ -107,7 +111,7 @@
             android:textColor="@color/dusty_white"
             android:background="@drawable/second_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_padding"
-            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:layout_marginLeft="2dp"
             android:layout_gravity="fill_horizontal"
             android:layout_weight="1"
             android:textSize="@dimen/menu_buttons_text"
